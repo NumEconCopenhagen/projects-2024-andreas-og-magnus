@@ -1,9 +1,8 @@
-# \[Group name\]
+# \[Andreas og Magnus]
 
 **Group members:**
-- A
-- B
-- C
+- Andreas Grenaa Troglauer
+- Magnus Friis Christiansen
 
 This repository contains  
 1. Inaugural project. 
