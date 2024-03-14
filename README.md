@@ -3,6 +3,7 @@
 **Group members:**
 - Andreas Grenaa Troglauer
 - Magnus Friis Christiansen
+- Alexander Einar Hauksson
 
 This repository contains  
 1. Inaugural project. 
