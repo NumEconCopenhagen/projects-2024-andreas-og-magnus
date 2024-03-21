@@ -2,9 +2,9 @@
 
 Group members:
 
-Andreas Grenaa Troglauer
-Magnus Friis Christiansen
-Alexander Einar Hauksson
+- Andreas Grenaae Troglauer
+- Magnus Friis Christiansen
+- Alexander Einar Hauksson
 
 The **results** of the project can be seen from running [inauguralproject.ipynb](inauguralproject.ipynb).
 

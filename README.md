@@ -1,7 +1,7 @@
 # \[Andreas og Magnus]
 
 **Group members:**
-- Andreas Grenaa Troglauer
+- Andreas Grenaae Troglauer
 - Magnus Friis Christiansen
 - Alexander Einar Hauksson
 
