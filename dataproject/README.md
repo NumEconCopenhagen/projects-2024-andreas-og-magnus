@@ -2,7 +2,7 @@
 
 Our project is titled **detecting housing bubbles on the danish housing market** and is about testing the real house prices in Denmark for uniteroots.
 
-The **results** of the project can be seen from running [Data_project.ipynb](Data_project.ipynb). and the excel file [Huspris Kvartal.xlsx](Huspris Kvartal.xlsx).
+The **results** of the project can be seen from running [Data_project.ipynb](Data_project.ipynb). and the excel file [Huspris_Kvartal.xlsx](Huspris_Kvartal.xlsx). 
 
 We apply the **following datasets**:
 
