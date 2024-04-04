@@ -1,13 +1,14 @@
 # Data analysis project
 
-Our project is titled **PROJECT TITLE** and is about EXPLAIN.
+Our project is titled **detecting housing bubbles on the danish housing market** and is about testing the real house prices in Denmark for uniteroots.
 
-The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
+The **results** of the project can be seen from running [Data_project.ipynb](Data_project.ipynb). and the excel file [Huspris Kvartal.xlsx](Huspris Kvartal.xlsx).
 
 We apply the **following datasets**:
 
-1. dataX.csv (*source*) 
-1. dataY.csv (*source*)
+1. Huspris Kvartal.xlsx (*Statistic Denmark*) 
+
+Wich is quaterly data taken from statistic Denmark
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 
