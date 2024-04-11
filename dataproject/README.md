@@ -15,3 +15,9 @@ Wich is quaterly data taken from statistic Denmark
 
 ``pip install matplotlib-venn``
 ``%pip install arch``
+
+To install: 
+1. go to Anaconda navigator
+2. launch Jupiter notebooks
+3. type: %pip install arch
+Then you should be good to go :) 
