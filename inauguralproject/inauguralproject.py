@@ -39,4 +39,8 @@ class ExchangeEconomyClass:
         eps2 = x2A-par.w2A + x2B-(1-par.w2A)
 
         return eps1,eps2
-
+    
+    def negative_utility_A(self, p1):
+        # Utility function but returns negative for optimization
+        x1A, x2A = self.demand_A(p1)
+        return -self.utility_A(x1A, x2A)
