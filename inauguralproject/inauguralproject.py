@@ -43,4 +43,4 @@ class ExchangeEconomyClass:
     def max_u_ab(self,x):
         utility_A = self.utility_A(x[0], x[1])
         utility_B = self.utility_B(1-x[0], 1-x[1])
-        return -(utility_A + utility_B)
+        return -(utility_A + utility_B) 
