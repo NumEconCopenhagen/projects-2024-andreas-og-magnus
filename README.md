@@ -1,8 +1,8 @@
 # \[Andreas og Magnus]
 
 **Group members:**
-- Andreas Grenaae Troglauer
-- Magnus Friis Christiansen
+- exam number: 210
+- exam number: 217
 - Alexander Einar Hauksson
 
 This repository contains  
