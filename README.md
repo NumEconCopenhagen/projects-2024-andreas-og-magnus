@@ -1,4 +1,4 @@
-# \[Andreas og Magnus]
+# Final hand in
 
 **Group members:**
 - exam number: 210
