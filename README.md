@@ -3,7 +3,7 @@
 **Group members:**
 - exam number: 210
 - exam number: 217
-- Alexander Einar Hauksson
+- exam number: 221
 
 This repository contains four folders
 1. Inaugural project. 
