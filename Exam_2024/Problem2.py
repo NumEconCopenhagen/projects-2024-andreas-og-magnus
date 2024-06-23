@@ -1,23 +1,25 @@
 from types import SimpleNamespace
 import numpy as np
-
-import param as par
+from numpy.random import normal
 class careermodelclass:
     def __init__(self):
-        par = self.par = SimpleNamespace()
-        par.J = 3
-        par.N = 10
-        par.K = 10000
-        par.F = np.arange(1,par.N+1)
-        par.sigma = 2
-        par.v = np.array([1,2,3])
-        par.c = 1
-    
+        self.par = SimpleNamespace()
+        self.par.J = 3
+        self.par.N = 10
+        self.par.K = 10000
+        self.par.F = np.arange(1, self.par.N + 1)
+        self.par.sigma = 2
+        self.par.v = np.array([1, 2, 3])
+        self.par.c = 1
     def epsilon(self):
-        return np.random.normal(0, par.sigma, par.N)
-    def utility(self, x):
-        return par.v + epsilon
-    def realized_utility (self):
-        return par.v[:, np.newaxis] + epsilon
+        return normal(0, self.par.sigma, (self.par.K, self.par.J))
+    def realized_utility(self):
+        epsilon_samples = self.epsilon()
+        return self.par.v + epsilon_samples
     def average_realized_utility(self):
-        return np.mean(realized_utility)
+        realized_utilities = self.realized_utility()
+        return np.mean(realized_utilities, axis=0)
+    def expected_utility(self):
+        epsilon_samples = self.epsilon()
+        expected_utility = self.par.v + np.mean(epsilon_samples, axis=0)
+        return expected_utility
