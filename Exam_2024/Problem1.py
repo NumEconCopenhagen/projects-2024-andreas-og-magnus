@@ -61,7 +61,7 @@ class ProductionEconomy:
                 goods_market1_clearing = np.isclose(c1, y1)
                 goods_market2_clearing = np.isclose(c2, y2)
                 results.append((p1, p2, labor_market_clearing, goods_market1_clearing, goods_market2_clearing))
-        results_df = pd.DataFrame(results, columns=['p1', 'p2', 'Labor Market Clearing', 'Goods Market 1 Clearing', 'Goods Market 2 Clearing'])
+        results_df = pd.DataFrame(results, columns=['p1', 'p2', 'Labor market clearing', 'Goods market 1 clearing', 'Goods market 2 clearing'])
         return results_df
 
     def social_welfare_function(self, p1, p2, w):
