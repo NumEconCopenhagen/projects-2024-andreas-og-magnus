@@ -2,3 +2,5 @@
 
 This repository contains of 1 notebook with the answers to all the examproject questions, and 3 py. files.
 each problem of the exam project has it own py. file, problem 1 has the corresponding py. file, named [problem1.py](problem1.py). and so on. 
+
+The .py file for solving problem 3 is attached but was not used. We attempted to incorporate the .py file into our answers but encountered difficulties. Nevertheless, we are attaching the file in case it is of interest.
